@@ -37,6 +37,10 @@ Send 1000 UDP packets to `192.168.1.100` on port `12345`:
 python osgudp.py 192.168.1.100 12345 1000
 ```
 
+**Demo example:**
+[Watch the Demo Video](https://www.dropbox.com/scl/fi/lfyqr0bebisevvnoskddu/Demo-Made-with-Clipchamp_1719771144191.mp4?rlkey=j5sjr78intxqsng9n2ldol1r0&dl=0)
+
+
 ## Legal Disclaimer
 
 - This script is for educational purposes only.
