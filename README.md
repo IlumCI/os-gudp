@@ -19,8 +19,9 @@ This Python script demonstrates a simple Generic UDP (GUDP) attack by sending a 
    ```bash
    git clone https://github.com/IlumCI/os-gudp.git
    cd os-gudp
+   python osgudp.py -h
    python osgudp.py <target_ip> <target_port> <num_packets>
-
+   
    
 2. **Usage**
 
